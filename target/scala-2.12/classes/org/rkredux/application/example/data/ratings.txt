@@ -1,0 +1,6 @@
+Userid,movieid,rating,comment
+1,24,3,loved it
+1,32,3,did not like it as much
+2,12,1,loved it
+3,10,1,what a time
+5,22,2,did not like it as much

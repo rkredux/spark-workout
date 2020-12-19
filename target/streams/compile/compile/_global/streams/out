@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/rahulkumar/Desktop/mppsbt/project/target/.sbt-compilation-infos/mppsbt-compile/.sbt-idea-lock ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/rahulkumar/Desktop/mppsbt/src/main/scala/example/WordCount.scala:4:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/rahulkumar/Desktop/mppsbt/src/main/scala/example/WordCount.scala:5:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.log4j._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/rahulkumar/Desktop/mppsbt/src/main/scala/example/WordCount.scala:12:5: not found: value Logger[0m
+[0m[[0m[31merror[0m] [0m[0m    Logger.getLogger("org").setLevel(Level.ERROR)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/rahulkumar/Desktop/mppsbt/src/main/scala/example/WordCount.scala:12:38: not found: value Level[0m
+[0m[[0m[31merror[0m] [0m[0m    Logger.getLogger("org").setLevel(Level.ERROR)[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/rahulkumar/Desktop/mppsbt/src/main/scala/example/WordCount.scala:15:18: not found: type SparkContext[0m
+[0m[[0m[31merror[0m] [0m[0m    val sc = new SparkContext("local[*]", "WordCount")[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/rahulkumar/Desktop/mppsbt/project/target/.sbt-compilation-infos/mppsbt-compile/.sbt-idea-lock.[0m
